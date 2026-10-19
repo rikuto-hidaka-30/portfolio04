@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="IT学習の記録や制作について紹介するブログです。">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog | Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+  <header id="header">
+    <div class="header-inner wrapper">
+      <a class="logo" href="index.html">Portfolio<span>.</span></a>
+      <nav aria-label="メインナビゲーション">
+        <ul class="navi">
+          <li><a href="index.html">Top</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a class="active" href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog-hero">
+      <div class="hero-inner wrapper">
+        <p class="eyebrow">LEARNING JOURNAL</p>
+        <h1>Blog<span>.</span></h1>
+        <p class="hero-description">学習ブログ</p>
+        <p class="hero-note">プログラミング学習で学んだことや、制作の記録を紹介します。</p>
+      </div>
+    </section>
+
+    <section class="blog-section wrapper">
+      <div class="section-heading">
+        <p class="section-en">LATEST ARTICLES</p>
+        <h2>学習の記録</h2>
+        <p>学んだことを振り返りながら、少しずつ知識を増やしています。</p>
+      </div>
+
+      <div class="blog-layout">
+        <div class="post-list">
+          <article class="post-card" data-category="java">
+            <div class="post-visual java-visual">
+              <span class="visual-label">PROGRAMMING</span>
+              <strong>Java<span>.</span></strong>
+              <small>01</small>
+            </div>
+            <div class="post-body">
+              <div class="post-meta"><span class="category-pill">Java</span><span class="post-date">学習記録</span></div>
+              <h3>Javaの基礎を学んで</h3>
+              <p>変数や条件分岐、繰り返し処理など、プログラムを作るための基本を学びました。実際にコードを書いて動作を確認することで、処理の流れへの理解を深めています。</p>
+              <div class="post-tags"><span>#Java</span><span>#プログラミング</span><span>#学習記録</span></div>
+              <a class="read-link" href="#java-detail">記事の内容を見る <b aria-hidden="true">→</b></a>
+            </div>
+          </article>
+
+          <article class="post-card" data-category="html">
+            <div class="post-visual html-visual">
+              <span class="visual-label">WEB DEVELOPMENT</span>
+              <strong>HTML<span>&amp;</span>CSS</strong>
+              <small>02</small>
+            </div>
+            <div class="post-body">
+              <div class="post-meta"><span class="category-pill">HTML</span><span class="post-date">学習記録</span></div>
+              <h3>HTMLとCSSでWebページを制作</h3>
+              <p>HTMLでページの構造を作り、CSSで色や余白、配置を調整しました。見た目を整えるだけでなく、情報を分かりやすく伝えるレイアウトを意識しました。</p>
+              <div class="post-tags"><span>#HTML</span><span>#CSS</span><span>#Web開発</span></div>
+              <a class="read-link" href="#html-detail">記事の内容を見る <b aria-hidden="true">→</b></a>
+            </div>
+          </article>
+        </div>
+
+        <aside class="blog-sidebar">
+          <div class="sidebar-card">
+            <p class="sidebar-label">CATEGORIES</p>
+            <h2>タグで探す</h2>
+            <p class="sidebar-description">興味のあるテーマを選んでください。</p>
+            <div class="tag-list">
+              <button class="tag-button active" type="button" data-filter="all">すべて <span>2</span></button>
+              <button class="tag-button" type="button" data-filter="html">HTML <span>1</span></button>
+              <button class="tag-button" type="button" data-filter="java">Java <span>1</span></button>
+              <button class="tag-button" type="button" data-filter="web">Web開発 <span>1</span></button>
+            </div>
+          </div>
+          <div class="sidebar-note">
+            <div class="note-icon">✦</div>
+            <h3>学びを記録する</h3>
+            <p>学んだことやつまずいた点を記録して、次の制作に活かしていきます。</p>
+          </div>
+        </aside>
+      </div>
+
+      <section class="article-details">
+        <div class="section-heading">
+          <p class="section-en">ARTICLE NOTES</p>
+          <h2>記事の内容</h2>
+        </div>
+        <article class="detail-card" id="java-detail">
+          <span class="detail-number">01 / JAVA</span>
+          <h3>Javaの基礎を学んで</h3>
+          <p>Javaの学習では、変数に値を入れる方法、条件によって処理を分けるif文、同じ処理を繰り返すfor文などを学びました。</p>
+        </article>
+        <article class="detail-card" id="html-detail">
+          <span class="detail-number">02 / HTML &amp; CSS</span>
+          <h3>HTMLとCSSでWebページを制作</h3>
+          <p>HTMLで見出しや文章などの構造を作り、CSSで色やサイズ、余白、配置を設定しました。ページ全体でデザインを統一することや、スマートフォンでも見やすい表示にすることを学びました。</p>
+        </article>
+      </section>
+
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-inner wrapper">
+      <a class="footer-logo" href="index.html">Portfolio<span>.</span></a>
+      <ul class="navi">
+        <li><a href="index.html">Top</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="copyright">© 2026 Portfolio</p>
+    </div>
+  </footer>
+
+  <script>
+    const filterButtons = document.querySelectorAll(".tag-button");
+    const posts = document.querySelectorAll(".post-card");
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
+        filterButtons.forEach((item) => item.classList.remove("active"));
+        button.classList.add("active");
+
+        posts.forEach((post) => {
+          const category = post.dataset.category;
+          const matches = filter === "all"
+            || category === filter
+            || (filter === "web" && post.querySelector(".post-tags").textContent.includes("Web開発"));
+          post.hidden = !matches;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
